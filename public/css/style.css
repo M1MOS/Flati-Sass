@@ -141,6 +141,7 @@ section {
   width: 100%;
   height: 50vh;
   background-color: #ffffff;
+  padding-bottom: 50px;
 }
 .range .work {
   display: flex;
@@ -158,16 +159,68 @@ section {
   font-size: 15px;
   color: #363B47;
 }
-
-.card2 {
+.range .work button {
+  color: white;
+  background-color: #25A2CC;
+  border: none;
+  border-radius: 5%;
+  padding: 4%;
+}
+.range .card2 {
   display: flex;
   justify-content: end;
   align-items: center;
   width: 50%;
   gap: 15px;
 }
-.card2 .cards {
+.range .cards {
+  width: 100%;
+  height: auto;
   background-color: #363B47;
+  color: white;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 2%;
+}
+.range .cards img {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #25A2CC;
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  justify-content: center;
+}
+.footer .footitle {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.footer .footitle h5 {
+  letter-spacing: 2px;
+}
+.footer .footpar p {
+  padding-bottom: 25px;
+}
+.footer .footicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+.footer .footicon .fa-brands {
+  font-size: 40px;
+}
+
+.after {
+  background-color: #363B47;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
