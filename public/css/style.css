@@ -46,7 +46,7 @@ header .nav ul li {
   padding: 5% 5%;
   border-radius: 5% 5% 0 0;
 }
-header .nav ul li:nth-child(1) {
+header .nav ul li:hover {
   background-color: #3676BB;
   width: 100%;
   height: auto;
